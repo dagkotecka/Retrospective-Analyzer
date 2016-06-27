@@ -1,0 +1,16 @@
+{
+  "name": "Analyzer",
+  "version": "0.0.0",
+  "description": "Analyzer",
+  "main": "server.js",
+  "author": {
+    "name": "dkotecka",
+    "email": ""
+  },
+  "dependencies": {
+    "bootstrap3": "^3.3.5",
+    "express": "^3.4.4",
+    "jade": "^1.11.0",
+    "jquery": "^2.2.1"
+  }
+}
