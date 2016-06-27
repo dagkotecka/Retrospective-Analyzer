@@ -1,0 +1,109 @@
+﻿/*
+///
+// Dagmara Kotecka 2016
+//
+*/ 
+
+.content {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.left {
+    text-align: left;
+}
+
+.mybutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.mybutton1 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.width300px {
+    width: 300px;
+}
+
+.width600px {
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.margin20x {
+    margin: 20px;
+}
+
+.pad20px {
+    padding: 20px 0px;
+}
+
+.a10 {
+    margin: 10px 0 0 0;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #5f5555;
+    border-color: #000000;
+    font-size: 24px;
+    text-align:right;
+}
+
+body {
+    font-family: 'Droid Sans', serif;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.p3 {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.p4 {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.panel-content {
+    text-align: center;
+}
+
+.startButton {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:40%;
+    width: 20%;
+    position:relative;
+
+}
+
+
+.pictures {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
