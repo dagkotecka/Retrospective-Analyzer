@@ -1,0 +1,97 @@
+﻿//
+// Dagmara Kotecka 2016
+// 
+
+extends layout
+v
+block content
+  .panel.panel-primary
+    .panel-heading Dagmara Kotecka - Retrospective Analyzer
+  ul.nav.nav-tabs
+    li(role='presentation', class='active')
+      a(href='#welcome', data-toggle='tab') Welcome
+    li(role='presentation')
+      a(href='#findretro', data-toggle='tab') Find your game
+    li(role='presentation')
+      a(href='#games', data-toggle='tab') Games
+    li(role='presentation')
+      a(href='#author', data-toggle='tab') Author
+  .tab-content
+    div(id='welcome', class='tab-pane fade in active pad20px')
+      .width600px
+        .panel-content
+          .p1  Welcome in the Retrospective World where you can choose a retrospective game for your team!
+          .p If your retrospectives are boring, nobody is attending to them, you feel like nothing useful is being retrieved from them or just need a fresh idea how to perform a retrospective meeting, you found a perfect place! The goal of this service is to help you and your team to find a game for retrospectives suitable for your needs. In order to get the game you need to answer nine simple questions. Go to "Find the game" tab and click start to receive the best possible game for your requirements. If you are still sceptic about this solution then click "Games" tab to check out proposed by us approaches and techniques.
+          
+    div(id="findretro", class='tab-pane fade in pad20px')
+      .panel-content
+        .p1 You are one step closer to completely change your point of view about the Scrum and retrospective meetings. Forget about corny and boring meetings and visit the misterious world that will change your perspective forever, I dare you to check them out! Emotions and unforgetable experience guaranteed, just do it!
+        button(id='findretro', type='button', class='btn-lg btn btn-success btn-block startButton') START
+    div(id="games", class='tab-pane fade in pad20px')
+      .panel-content
+        .row
+        .p1 So you decided to check out the games we proposed, very well! 
+
+        .col-sm-6.col-md-3 
+          .thumbnail
+              img(class="pictures" src="pictures/speedboat.jpg")
+            .caption
+              h3 Speedboat
+              p
+                a.btn.btn-primary(href='/speedboat', class="myButton" role='button') More
+        .col-sm-6.col-md-3
+          .thumbnail
+              img(class="pictures" src="pictures/mgs.png")
+            .caption
+              h3 Glad, Mad, Sad
+              p
+                a.btn.btn-primary(href='/gms', class="myButton" role='button') More
+        .col-sm-6.col-md-3 
+          .thumbnail
+              img(class="pictures" src="pictures/candy.jpg")
+            .caption
+              h3 Candy-Love
+              p
+                a.btn.btn-primary(href='/candy', class="myButton" role='button') More
+        .col-sm-6.col-md-3 
+          .thumbnail
+              img(class="pictures" src="pictures/360.jpg")
+            .caption
+              h3 360 degrees of appreciation
+              p
+                a.btn.btn-primary(href='/360', class="myButton" role='button') More
+        .col-sm-6.col-md-3 
+          .thumbnail
+              img(class="pictures" src="pictures/5L.png")
+            .caption
+              h3 5L's
+              p
+                a.btn.btn-primary(href='/5L', class="myButton" role='button') More
+        .col-sm-6.col-md-3 
+          .thumbnail
+              img(class="pictures" src="pictures/mood.jpg")
+            .caption
+              h3 Mood & Improvements
+              p
+                a.btn.btn-primary(href='/mood', class="myButton" role='button') More
+        .col-sm-6.col-md-3
+          .thumbnail
+              img(class="pictures" src="pictures/starfish.png")
+            .caption
+              h3 Starfish
+              p
+                a.btn.btn-primary(href='/starfish', class="myButton" role='button') More
+      
+    div(id="game", class='tab-pane fade in pad20px')
+      .width600px
+        .panel-content
+          .content
+            .p For now this section is empty, choose a game in Games tab to see game description.       
+    div(id="author", class='tab-pane fade in pad20px')
+      .width600px
+        .panel-content
+          .p Author : Dagmara Kotecka
+          .p Support : Grzegorz Reglinski, PhD Adam Przybylek 
+
+               
+   
