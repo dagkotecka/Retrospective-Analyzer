@@ -87,6 +87,11 @@ body {
     margin-bottom: 10px;
     margin-left: 5%;
 }
+.p5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
 
 .panel-content {
     text-align: center;
@@ -106,4 +111,10 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 30%;
+}
+
+.welcomepicture {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:20%;
 }
